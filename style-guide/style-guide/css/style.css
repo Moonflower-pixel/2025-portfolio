@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+/*^ this is temporary until a solution can be found on how to add custom font*/
+/*before you ask why its so bare, well ive spent most of my time to figure out how to get the custom font working.*/
+
+.nav-line {
+	text-decoration: none;
+	color: black;
+	text-align: center; 
+	display: inline;
+	align-content: center;
+}
+
+table {
+  width: 10%;
+	border-collapse: collapse;
+}
+
+th, td {
+  border: hidden;
+	padding: 0% 5%;
+  text-align: center;
+}
+
+
+/*.headcopy {
+	font-family: "coolvetica rg it","coolvetica crammed rg";
+}*/
+/* code is not working despite routing it properly.*/
+
+.headcopy {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+.bodycopy {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+.exp {
+	padding: 10%
+}
+
+header {
+	background-color: darkcyan;
+}
+
+.customsq {
+	width: 200px;
+	height: 40px;
+	transform: skew(-20deg);
+	background: #555;
+}
