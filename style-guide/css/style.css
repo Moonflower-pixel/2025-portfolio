@@ -25,46 +25,89 @@
 	color: black;
 	text-align: center; 
 	display: inline;
-	align-content: center;
+	word-wrap: break-word;
 }
 
 table {
   width: 100%;
 	border-collapse: collapse;
+	align-content: center;
 }
 
 th, td {
   border: hidden;
-	padding: 0% 10%;
+	padding: 0% 5%;
   text-align: center;
 	font-family: "noto-sans";
+	color: white;
 }
 
 .headcopy {
 	font-family: "Noto Sans", sans-serif;
-	color: aliceblue;
+	color: white;
 }
 
 .bodycopy { 
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 400;
   font-style: normal;
-	color: aliceblue;
-}
-
-
-
-.exp {
-	padding: 10%
+	color: white;
 }
 
 header {
-	background-color: darkcyan;
+	background-color: #0587B3;
 }
 
 .customsq {
 	width: 200px;
 	height: 40px;
 	transform: skew(-20deg);
-	background: #555;
+	background-color:rgba(10,13,28,1.00);
+}
+body {
+	background-color:rgba(10,13,28,1.00);
+}
+
+h2, h3 {
+	color: #ACEB98;
+}
+
+h1 {
+	color:#0587B3;
+}
+.rect {
+  	height: 10%;
+ 	 width: 100%;
+	background-color:#025875;
+}
+p {
+	color: white;
+}
+
+.nav-line-exp {
+	text-decoration: none;
+	color: black;
+	text-align: center; 
+	display: inline;
+	padding: 35%;
+  	word-wrap: break-word;
+	/* word wrap just breaks the word and forces it to move down a line, while still staying in the same line of code, or in this case, the box. */
+}
+
+hr {
+	color: #ACEB98;
+}
+
+a:link, a:visited {
+  background-color: #ACEB98;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+	color: white;
+  background-color: #0587B3;
 }
