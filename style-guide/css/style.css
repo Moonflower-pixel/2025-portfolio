@@ -1,41 +1,70 @@
 @charset "UTF-8";
 /* CSS Document */
-/*^ this is temporary until a solution can be found on how to add custom font*/
-/*before you ask why its so bare, well ive spent most of my time to figure out how to get the custom font working.*/
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.noto-sans-2 {
+  font-family: "PT", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 .nav-line {
 	text-decoration: none;
 	color: black;
 	text-align: center; 
 	display: inline;
-	align-content: center
+	align-content: center;
 }
 
 table {
-  width: 5%;
+  width: 100%;
 	border-collapse: collapse;
 }
 
 th, td {
   border: hidden;
-	padding: 0% 5%;
+	padding: 0% 10%;
   text-align: center;
+	font-family: "noto-sans";
 }
-
-
-/*.headcopy {
-	font-family: "coolvetica rg it","coolvetica crammed rg";
-}*/
-/* code is not working despite routing it properly.*/
 
 .headcopy {
-	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+	font-family: "Noto Sans", sans-serif;
+	color: aliceblue;
 }
 
-.bodycopy {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+.bodycopy { 
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	color: aliceblue;
 }
+
+
 
 .exp {
 	padding: 10%
+}
+
+header {
+	background-color: darkcyan;
+}
+
+.customsq {
+	width: 200px;
+	height: 40px;
+	transform: skew(-20deg);
+	background: #555;
 }
