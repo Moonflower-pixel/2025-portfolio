@@ -4,8 +4,5 @@ email: emilybryant2004@gmail.com
 baseurl: "/2025-portfolio/"
 
 collections:
-	design:
-		output: true
-		
-	photoshop:
-		output: true
+design:
+output: true
