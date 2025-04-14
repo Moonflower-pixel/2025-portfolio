@@ -1,6 +1,6 @@
 ---
 title: "Brand"
-tools: [Photoshop, InDesign, Dreamweaver, Illustator]
+tools: [Photoshop, InDesign, Illustator]
 description: "A typographic poster series exploring contrast, scale, and rhythm."
 layout: 
 permalink:
@@ -8,13 +8,14 @@ permalink:
 
 ## Project Overview
 
-This poster series was created to explore how tpyography can communitcate emotion and energy through the layout.
+This design was made to show the simplistic but powerful design of art. The design was a cat roaring, for an esports game. to make this into a brand, i used it and adjusted all components to make it work with everything around it.
 
 ## Tools & Techniques
 
 - Adobe InDesign
-- Adobe Photoshop for texture and blending.
+- Adobe Photoshop for colour
+- Adobe Illustator for base design
 
 ## Outcomes
 
-this prject helps devlop a stronger sense of visual hierarchy and gave me the opportunity to experiment with type-as-image.
+This design was made to show the simplistic but powerful design of art. The design was a cat roaring, for an esports game. to make this into a brand, i used it and adjusted all components to make it work with everything around it.
